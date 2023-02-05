@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.mainbox {
+    width: 80%;
+    height: 90vh;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.mainbox header {
+    width: 100%;
+    height: 12%;
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbox header .firstlogo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(54, 52, 52);
+
+}
+
+.mainbox header .firstlogo h1 {
+    color: white;
+    background-color: rgb(54, 52, 52);
+    font-size: 40px;
+
+}
+
+.mainbox header .firstnav {
+    width: 50%;
+    height: 100%;
+
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox header .firstnav ul {
+    background-color: rgb(54, 52, 52);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox header .firstnav ul li {
+    padding-top: 30px;
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox header .firstnav ul li a {
+    padding-top: 20px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.mainbox header .firsticon {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox header .firsticon ul {
+    background-color: rgb(54, 52, 52);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox header .firsticon ul li {
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.mainbox header .firsticon ul li i {
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 13px;
+    width: 10px;
+    border-radius: 50%;
+
+}
+
+.mainbox section {
+    width: 100%;
+    height: 80%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.mainbox section .secondbox {
+    width: 25%;
+    height: 80%;
+    border: 1px solid green;
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox section .thirdbox {
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    align-self: auto;
+
+
+}
+
+.mainbox section .secondbox .secondbox1 {
+    width: 100%;
+    height: 17%;
+    display: flex;
+    background-color: rgb(7, 111, 247)
+}
+
+.mainbox section .secondbox .secondbox1a {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(7, 111, 247);
+}
+
+.mainbox section .secondbox .secondbox1 .secondbox1a h1 {
+    color: white;
+    background-color: rgb(7, 111, 247);
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.mainbox section .secondbox .secondbox1 .secondbox1b {
+    background-color: rgb(7, 111, 247);
+}
+
+.mainbox section .secondbox .secondbox1 .secondbox1b ul {
+    background-color: rgb(7, 111, 247);
+    list-style-type: none;
+    padding-left: 75px;
+
+}
+
+.mainbox section .secondbox .secondbox1 .secondbox1b ul li {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 50%;
+
+}
+
+.mainbox section .secondbox .secondbox1 .secondbox1b ul li i {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 15%;
+
+}
+
+.mainbox section .secondbox .secondbox2 {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(16, 16, 17)
+}
+
+.mainbox section .secondbox .secondbox2 ul {
+    background-color: rgb(16, 16, 17);
+    list-style-type: none;
+}
+
+.mainbox section .secondbox .secondbox2 ul li {
+    padding-top: 25px;
+    background-color: rgb(16, 16, 17);
+}
+
+.mainbox section .secondbox .secondbox2 ul li a {
+    background-color: rgb(16, 16, 17);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.mainbox section .secondbox3 {
+    background-color: rgb(54, 52, 52);
+}
+
+.mainbox section .secondbox3 ul {
+    background-color: rgb(54, 52, 52);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.mainbox section .secondbox3 ul li {
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.mainbox section .secondbox3 ul li i {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 13px;
+    border-radius: 50%;
+
+}
+
+.mainbox section .thirdbox .thirdbox1 {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1a {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1b {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.mainbox section .thirdbox .thirdbox1 .thirdbox1b h1 {
+    color: black;
+    background-color: white;
+    font-size: 55px;
+    font-style: normal;
+    padding-top: 10px;
+
+}
+
+.mainbox section .thirdbox .thirdbox2 {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.mainbox section .thirdbox .thirdbox3 {
+    width: 100%;
+    height: 3%;
+    background-color: white;
+}
+
+.mainbox section .thirdbox .thirdbox4 {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.mainbox section .thirdbox .thirdbox2 h1 {
+    color: white;
+    background-color: rgb(4, 4, 4);
+    font-size: 55px;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox section .thirdbox .thirdbox4 h1 {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
